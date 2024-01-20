@@ -18,11 +18,6 @@ export default {
 
 <style scoped>
 .main_app {
-  position: absolute;
-  z-index: 9999999;
-  right: 25px;
-  top: 25px;
-
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
