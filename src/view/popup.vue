@@ -16,7 +16,7 @@ export default {
 
 </script>
 
-<style>
+<style scoped>
 .main_app {
   position: absolute;
   z-index: 9999999;
