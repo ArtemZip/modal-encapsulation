@@ -1,5 +1,7 @@
 # modal-encapsulation
 
+This an example repository to show how to encapsulate styles of modal injected by your chrome extension.
+
 ## Project setup
 ```
 npm install
