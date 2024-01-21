@@ -53,6 +53,6 @@ module.exports = {
     devtool: isDevMode ? 'inline-source-map' : false
   },
   css: {
-    extract: true // Make sure the css is the same
+    extract: false // Make sure the css is the same
   }
 }

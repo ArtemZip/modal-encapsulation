@@ -1,15 +1,16 @@
 import { createApp } from 'vue'
 import App from '../view/popup.vue'
 
-const modal = document.createElement("div");
-modal.id = 'example-modal'
 
 const shadow = document.createElement('div');
 const shadowRoot = shadow.attachShadow({ mode: 'open' })
 
-const styles = document.createElement('link');
+const styles = shadowRoot.ownerDocument.createElement('link');
 styles.rel = "stylesheet";
 styles.href = chrome.runtime.getURL("css/content.css");
+
+const modal = shadowRoot.ownerDocument.createElement("div");
+modal.id = 'example-modal'
 
 shadowRoot.appendChild(modal);
 shadowRoot.appendChild(styles);
